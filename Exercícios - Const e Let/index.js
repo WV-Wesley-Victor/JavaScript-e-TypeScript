@@ -19,6 +19,6 @@ console.log(anoNascimento);
 //Template strings
 console.log(nome, sobrenome, "tem", idade, "anos, pesa", peso + "KG");
 console.log(
-    `tem ${alturaEmM} de altura e seu indice de massa corporal é de ${indiceMassaCorporal}`
+  `tem ${alturaEmM} de altura e seu indice de massa corporal é de ${indiceMassaCorporal}`
 );
 console.log(nome, "nasceu em", anoNascimento + ".");

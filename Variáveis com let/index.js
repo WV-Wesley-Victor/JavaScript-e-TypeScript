@@ -14,7 +14,7 @@ console.log(nome2);
 
 //Não podemos criar variáveis com palavras reservadas
 //Variáveis precisam ter nomes significativos
-let nomeCliente = 'Michele';
+let nomeCliente = "Michele";
 console.log(nomeCliente);
 
 //Não pode começar o nome de uma variável com um número

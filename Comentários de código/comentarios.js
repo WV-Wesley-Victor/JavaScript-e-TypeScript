@@ -1,6 +1,6 @@
 //E escrever um comentário longo
-console.log('Olá mundo!'); //Aqui tem outro comentário
-console.log('Linha 1');
+console.log("Olá mundo!"); //Aqui tem outro comentário
+console.log("Linha 1");
 // Comentário
 
 /*
