@@ -1,2 +1,2 @@
-# Javascript e TypeScript
+# JavaScript e TypeScript
  
