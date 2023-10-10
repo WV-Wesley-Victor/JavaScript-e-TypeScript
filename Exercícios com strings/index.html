@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Wesley Victor Pereira Silva" />
+    <meta name="description" content="Descrição do seu site aqui" />
+    <meta name="keywords" content="palavras-chave separadas por vírgulas aqui" />
+    <title>Exercícios com strings</title>
+</head>
+
+<body>
+    <script>
+        //document.write();
+        window.document.write("Um texto adicionado com window.document.write().<br>");
+        //document.body.innerHTML
+        window.document.body.innerHTML += "Um texto adicionado com window.document.body.innerHTML.<br>";
+
+        const nome = prompt("Digite seu nome completo:");
+        document.body.innerHTML += `O seu nome é: <strong>${nome}</strong><br />`;
+        document.body.innerHTML += `Seu nome tem <strong>${nome.length}</strong> letras <br />`;
+        document.body.innerHTML += `A segunda letra do seu nome é: <strong>${nome[1]}</strong><br />`;
+        document.body.innerHTML += `Qual o primeiro índice da letra E no seu nome? <strong>${nome.indexOf("e")}</strong><br />`;
+        document.body.innerHTML += `Qual o último índice da letra E no seu nome? <strong>${nome.lastIndexOf("e")}</strong><br />`;
+        document.body.innerHTML += `As últimas 3 letras do seu nome são: <strong>${nome.slice(-3)}</strong><br />`;
+        document.body.innerHTML += `As palavras do seu nome são: <strong>${nome.split(" ")}</strong><br />`;
+        document.body.innerHTML += `Seu nome com letras maiúsculas: <strong>${nome.toUpperCase()}</strong><br />`;
+        document.body.innerHTML += `Seu nome com letras minúsculas: <strong>${nome.toLowerCase()}</strong><br />`;
+    </script>
+</body>
+
+</html>
