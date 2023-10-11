@@ -13,8 +13,8 @@ c.push(4);
 console.log(c, d); //[1, 2, 3, 4] [1, 2, 3, 4]
 
 const e = {
-  nome: "Wesley",
-  sobrenome: "Victor",
+    nome: "Wesley",
+    sobrenome: "Victor",
 };
 const f = e;
 e.nome = "João";
