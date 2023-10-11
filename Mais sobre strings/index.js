@@ -1,3 +1,4 @@
+//O tipo string em JavaScript é um tipo primitivo que representa uma sequência de caracteres.
 //01234567 = Um texto
 let umaString = "Um texto";
 //0123456789 = Um "texto"

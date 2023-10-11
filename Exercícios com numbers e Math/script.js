@@ -1,3 +1,5 @@
+//Numbers são valores simples que representam quantidades numéricas.
+//Math é um objeto que fornece constantes e métodos matemáticos comuns.
 const numero = Number(prompt("Digite um número:"));
 
 //document.getElementById();

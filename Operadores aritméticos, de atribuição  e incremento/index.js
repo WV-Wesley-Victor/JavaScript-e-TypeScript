@@ -1,3 +1,4 @@
+//Operadores aritméticos em JavaScript: realizam operações matemáticas básicas.
 /*
 Aritméticos
 ** = Potenciação
@@ -10,9 +11,6 @@ Aritméticos
 /*
 Incremento = ++
 Decremento = --
-*/
-/*
-Operadores de atribuição
 */
 const numString = "5";
 const num1 = 5;

@@ -1,0 +1,1 @@
+//Objeto em JavaScript: uma coleção de dados e funcionalidades.

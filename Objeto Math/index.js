@@ -1,3 +1,4 @@
+//Objeto Math: fornece funções matemáticas.
 let num1 = 9.56;
 let num2 = 9;
 

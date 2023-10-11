@@ -1,8 +1,5 @@
-/*
-Wesley Victor Pereira tem 18 anos, pesa 60 KG
-tem 1.7 de altura e seu indice de massa corporal é de 20.761245674740486
-Wesley Victor nasceu em 2005
-*/
+//Const declara uma variável cujo valor não pode ser alterado.
+//let declara uma variável com escopo de bloco.
 const nome = "Wesley Victor";
 const sobrenome = "Pereira";
 const idade = 18;

@@ -1,3 +1,4 @@
+//Tipos de dados primitivos em JavaScript: valores básicos que não são objetos.
 //String, number, undefined, null, boolean
 const nome = "Wesley"; //String
 const nome1 = "Victor"; //String

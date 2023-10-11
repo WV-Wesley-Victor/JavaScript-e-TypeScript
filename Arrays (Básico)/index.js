@@ -1,3 +1,4 @@
+//Array é uma lista de elementos
 //Array = []
 //               0         1        2
 const alunos = ["Wesley", "Maria", "João"]; //Lista de coisas

@@ -1,14 +1,14 @@
-//Alert
+//Alert é uma caixa de diálogo que exibe uma mensagem ao usuário.
 alert("Com a nossa mensagem.");
 window.alert("Mensagem.");
 
-//Confirm
+//Confirm é uma caixa de diálogo para pedir confirmação ao usuário.
 confirm("Confirme que deseja apagar.");
 window.confirm("Deseja realmente apagar?");
 
 const confirma = confirm("Realmente deseja apagar?");
 
-//Prompt
+//Prompt é uma caixa de diálogo para pedir informações ao usuário.
 prompt("Digite o seu nome.");
 window.prompt("Digite o seu sobrenome.");
 

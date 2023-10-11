@@ -1,3 +1,4 @@
+//O tipo number em JavaScript é um tipo primitivo que representa números.
 //IEEE 754-2008
 let num1 = 10.54325676; //number
 let num2 = 2.5; //number
