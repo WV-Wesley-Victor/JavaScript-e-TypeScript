@@ -12,9 +12,11 @@ if (pontuacaoUsuario >= 1000) {
 }
 
 //Usar operador ternário para determinar o nível do usuário com base na pontuação e exibir o resultado.
-const nivelUsuario = pontuacaoUsuario >= 1000 ? "Usuário VIP" : "Usuário normal";
+const nivelUsuario =
+    pontuacaoUsuario >= 1000 ? "Usuário VIP" : "Usuário normal";
 console.log(nivelUsuario);
 
 //Definir a cor do usuário como nula, mas se for nula, atribuir "Preto" como cor padrão.
 const corUsuario = null;
 const corPadrao = corUsuario || "Preto";
+console.log(corPadrao);
