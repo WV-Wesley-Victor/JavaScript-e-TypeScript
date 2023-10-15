@@ -1,5 +1,5 @@
-const h1 = document.querySelector(".container h1");
-const data = new Date();
+const h1 = document.querySelector(".container h1"); //Pega o elemento HTML com a classe container e pelo h1.
+const data = new Date(); //Cria um objeto Date para obter a data atual.
 
 //Função para obter o nome do dia da semana com base em um número de 0 (Domingo) a 6 (Sábado).
 function getDiaSemanaTexto(diaSemana) {
@@ -78,4 +78,23 @@ function getNomeMes(numeroMes) {
     }
 }
 
-h1.innerHTML = getDiaSemanaTexto(data.getDay());
+//Função que adiciona um zero à esquerda se o número for menor que 10.
+function zeroEsquerda(num) {
+    return num >= 10 ? num : `0${num}`;
+}
+
+//Função que formata a data e hora.
+function criaData(data) {
+    const diaSemana = data.getDay(); //Obtém o número do dia da semana.
+    const numeroMes = data.getMonth(); //Obtém o número do mês.
+    const nomeDia = getDiaSemanaTexto(diaSemana); //Obtém o nome do dia da semana.
+    const nomeMes = getNomeMes(numeroMes); //Obtém o nome do mês.
+    //Formata a data no formato desejado.
+    return (
+        `${nomeDia}, ${data.getDate()} de ${nomeMes}` +
+        ` de ${data.getFullYear()} ` +
+        `${zeroEsquerda(data.getHours())}:${zeroEsquerda(data.getMinutes())}`
+    );
+}
+
+h1.innerHTML = criaData(data); //Define o conteúdo do elemento HTML <h1> com a data formatada.
